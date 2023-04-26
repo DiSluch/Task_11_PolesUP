@@ -28,9 +28,9 @@ namespace Task_11_PolesUP
                 {
                     if (nums[j] > nums[j + 1])
                     {
-                        int min = nums[j];
+                        int more = nums[j];
                         nums[j] = nums[j + 1];
-                        nums[j + 1] = min;
+                        nums[j + 1] = more;
                     }
                 }
             }
